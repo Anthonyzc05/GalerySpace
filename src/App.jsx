@@ -77,7 +77,7 @@ function App() {
         </div>
       </header>
 
-      {/* 🔹 HERO */}
+      {/* 🔹 INTRODUCCION */}
       <section className="hero">
         <div className="hero-text">
           <h2>Expone, conecta y vende tus creaciones</h2>
@@ -128,7 +128,7 @@ function App() {
         />
       )}
 
-      {/* 🔹 FOOTER */}
+      {/* 🔹 DERECHOS RESERVADOS */}
       <footer>
         <p>© {new Date().getFullYear()} Gallery Space — Todos los derechos reservados.</p>
       </footer>
@@ -136,7 +136,7 @@ function App() {
   );
 }
 
-// 🔹 Modal simple para subir trabajos nuevos
+// 🔹 SUBIR NUEVOS PROYECTOS
 function UploadModal({ onClose, onUpload, categories }) {
   const [title, setTitle] = useState('');
   const [author, setAuthor] = useState('');

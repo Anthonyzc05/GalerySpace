@@ -9,7 +9,7 @@ body {
   min-height: 100vh;
 }
 
-/* NAVBAR c marco*/
+/* NAVBAR*/
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -103,7 +103,7 @@ body {
   max-width: 100px;
 }
 
-/* CATÁLOGO */
+
 /* CATÁLOGO */
 .filters {
   display: flex;
@@ -241,7 +241,7 @@ body {
   cursor: pointer;
 }
 
-/* FOOTER */
+/* FOLDER */
 footer {
   text-align: center;
   padding: 20px;
